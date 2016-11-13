@@ -60,6 +60,7 @@
 
         // Class configuration
         protected static $_default_config = array(
+            'driver' => 'sqlite',
             'connection_string' => 'sqlite::memory:',
             'id_column' => 'id',
             'id_column_overrides' => array(),
